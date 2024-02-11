@@ -1,0 +1,99 @@
+.homecontainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url('src/assets/img/rm380-12.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text1 , .text2{
+    color: black;
+    padding: 2rem;
+
+}
+
+.text2{
+    font-size: 1.5rem;
+}
+
+.text1{
+    margin-top: 7rem;
+}
+
+.btn{
+    height: 2.5rem;
+    width: 9rem;
+    background-color: pink;
+    border-radius: 2rem;
+    color: black;
+    border: 2px solid purple;
+    
+}
+
+.btn:hover{
+    background-color: purple;
+    color: white;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.twobtn{
+    display: flex;
+
+}
+
+.btn2{
+    margin-left: 2rem;
+}
+
+.oculuslogo{
+    height: 3rem;
+    width: 3rem;
+    padding: 0.4rem;
+   
+}
+.download, .dashboard{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 10rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.twod{
+    display: flex;
+    
+}
+
+.dashboard{
+    margin-left: 2rem;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width:390px) {
+    .twod{
+        flex-direction: column;
+    }
+
+    .download{
+        margin-left: 2rem;
+    }
+}
+
+
+
