@@ -1,0 +1,36 @@
+/* Previous styles */
+
+.about-page {
+    background: linear-gradient(to right, #f0f2f5, #e0e5ec); 
+    font-family: 'Open Sans', sans-serif; /* Example sans-serif */
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: #343a40; 
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.1); 
+    margin-bottom: 20px;
+} 
+
+.about-logo {
+    max-width: 200px;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+    margin: 0 auto 30px; /* Center the image */
+    display: block; 
+}
+
+section { 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 40px;    
+    margin-bottom: 40px; 
+}
+
+#abdur-raheem {
+    background-image: url('/assets/img/abdur-raheem.jpg'); /* Adjust the path as needed */
+    background-size: cover;    /* Make the image cover the div */
+    background-position: center; /* Centers the image in the div */
+    width: 200px;              /* Example - set the width of the team member div */
+    height: 250px;             /* Example - set the height */
+  } 
