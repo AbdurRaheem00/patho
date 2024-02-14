@@ -3,9 +3,7 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import { About, Services, Dashboard, Contact, Home } from './Components/pages';
-
 import './App.css';
-
 function App() {
   return (
     <div className="App">
@@ -22,5 +20,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

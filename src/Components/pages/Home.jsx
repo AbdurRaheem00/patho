@@ -18,23 +18,7 @@ const Home = () => {
           <button className='btn'>Connect wallet</button>
          
          
-        </div>
-        <div className='twod'>
-        <div className='download'>
-          <img src='src\assets\img\meta.png' className='oculuslogo'></img>
-          <p className='ptag'>Download on <br/> Oculus store</p>
-        </div>
-        <div className='dashboard'>
-          <img src='src\assets\img\physiology.png' className='oculuslogo'></img>
-          <p className='ptag'>Try Our<br/> Dashboard</p>
-        </div>
-        </div>
-        
-
-        <div className='container1'>
-          <UsedBy/>
-          </div>
-      
+        </div>      
     </div>
     
   )
