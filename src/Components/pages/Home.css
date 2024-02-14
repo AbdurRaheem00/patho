@@ -1,4 +1,5 @@
 .homecontainer{
+    padding-left: 2rem;
     width: 100%;
     height: 100vh;
     background-image: url('src/assets/img/rm380-12.jpg') ;
@@ -7,13 +8,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
 
 }
 
 .text1 , .text2{
     color: black;
-    padding: 2rem;
+    padding: 2rem 0;
 
 }
 
@@ -49,7 +50,7 @@
 }
 
 .btn2{
-    margin-left: 2rem;
+    
 }
 
 .oculuslogo{
