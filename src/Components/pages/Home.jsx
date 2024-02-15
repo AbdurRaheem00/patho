@@ -7,9 +7,11 @@ import Footer from "../Footer";
 const Home = () => {
   return (
     <div className="home">
-      <div className="bg-gradient-to-r from-black to-gray-900 ">
+      <div className="bg-gradient-to-r from-black to-gray-900 sm:w-50 md: w-100 ">
         <div className="homecontainer">
-          <h1 className="text1 text-7xl font-bold">Garuda.Metaverse</h1>
+          <h1 className="text1 text-7xl font-bold md:text-lg">
+            Garuda.Metaverse
+          </h1>
           <h1 className="text2 text-3xl font-normal text-balance">
             Labaratory as a metaverse platform for the healthcare community
             where users can immerse themselves in the study of medical science.
