@@ -9,8 +9,10 @@
   }
   
   .glass-card {
-    width: 300px; 
-    height: 250px; /* Adjust if needed */
+    width: 600px; 
+    font-size: 25px;
+    font-weight: 600;
+    height: 400px; /* Adjust if needed */
     margin: 0 20px; /* Adds space between the cards */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
