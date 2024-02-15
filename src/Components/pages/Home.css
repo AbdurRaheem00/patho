@@ -15,7 +15,7 @@
 
 .homecontainer::before {  
     content: '';
-    background: radial-gradient(white 1%, transparent 0); 
+    background: radial-gradient(#0F1932, transparent 0); 
     background-size: 2px 2px; /* Smaller dots */
     opacity: 0.4;         
  }

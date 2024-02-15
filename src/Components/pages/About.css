@@ -3,7 +3,7 @@
 }
 
 .about-page {
-    background: linear-gradient(to right, #f0f2f5, #e0e5ec);
+    background: linear-gradient(to right, #0F1932  , #0F1932 );
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -24,18 +24,27 @@ h1 {
 }
 
 section { 
-    border-bottom: 1px solid #eee; 
+    border-bottom: 1px solid #0F1932 ; 
     padding-bottom: 40px;    
     margin-bottom: 40px; 
 }
 
 #abdur-raheem {
-    background-image: url('/assets/img/abdur-raheem.jpg');
+    background-image: url('/image/abdur-raheem.jpg');
     background-size: cover;    
     background-position: center;
     width: 200px;
     height: 250px;
 }
+#dharshini {
+    background-image: url('/image/dharshini.jpg');
+    background-size: cover;    
+    background-position: center;
+    width: 200px;
+    height: 250px;
+}
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -70,7 +79,7 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5);
+    box-shadow: 0 15px 30px rgba(102, 101, 103, 0.5);
 }
 
 .mission-statement {
@@ -78,7 +87,7 @@ body {
     backdrop-filter: blur(15px);
     border-radius: 15px;
     padding: 25px;
-    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5);
+    box-shadow: 0 15px 30px rgba(118, 117, 118, 0.5);
 }
 
 
@@ -96,9 +105,10 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
-    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5); 
+    box-shadow: 0 15px 30px rgba(147, 145, 150, 0.5); 
     max-width: 280px;
     text-align: center;
+    
 }
 
 .team-member h4 {
@@ -107,6 +117,7 @@ body {
 
 .team-member p {
     margin-top: 5px; 
+    /*display: none;*/
 }
 
 .section-title {
@@ -156,7 +167,7 @@ body {
 .mission-statement:hover, 
 .team-member:hover {
    box-shadow: 0 8px 20px rgba(0,0,0,0.08), 
-               0 20px 40px rgba(150, 50, 255, 0.8);
+               0 20px 40px rgba(118, 116, 120, 0.8);
 }
 
 /* the struggle for better*/
@@ -167,7 +178,7 @@ body {
     border-radius: 15px;
     padding: 30px;
     margin: 20px 0;
-    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5);
+    box-shadow: 0 15px 30px rgba(94, 92, 96, 0.5);
     text-align: left;
 }
 
