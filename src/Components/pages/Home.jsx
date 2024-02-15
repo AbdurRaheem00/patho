@@ -4,7 +4,30 @@ import UsedbyCard from "./UsedbyCard";
 import Vrcard from "../Vrcard";
 import ImageWithText from "../ImageWithText";
 import Footer from "../Footer";
+import { useState } from "react";
 const Home = () => {
+
+  const [account, setaccount] = useState("");
+  async function requestAccount(){
+    if(window.ethereum){
+      console.log("wallet irukku bha");
+
+      try{
+        const accounts = await window.ethereum.request({
+          method: "eth_requestAccounts",
+        });
+        setaccount(accounts[0]);
+        console.log(accounts);
+      }
+      catch(error){
+          console.log("etho prachana")
+      }
+    }
+    else{
+      console.log("illa")
+    }
+  }
+  
   return (
     <div className="home">
       <div className="bg-gradient-to-r from-black to-gray-900 sm:w-50 md: w-100 ">
@@ -19,7 +42,8 @@ const Home = () => {
           </h1>
 
           <div className="twobtn">
-            <button className="btn">Connect wallet</button>
+            <button className="btn" onClick={requestAccount}>Connect wallet</button>
+            <h3 className="poonabutton"><span className="addressbtn">Address: </span> {account}</h3>
           </div>
           <div className="twod">
             <div className="download">

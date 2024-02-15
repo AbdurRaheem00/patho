@@ -142,3 +142,28 @@ button{
 
 
 
+.twobtn{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.poonabutton{
+    display: flex;
+    border: 1px solid grey;
+    height: 3rem;
+    text-align: center;    
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: blueviolet;
+    width: 40rem;
+
+}
+
+.addressbtn{
+    color: black;
+}
+
