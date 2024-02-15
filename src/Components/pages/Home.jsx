@@ -47,7 +47,7 @@ const Home = () => {
             <div className="w-[6px] h-12 bg-[#007FF8]"></div>
             <h1 className="text-5xl font-bold mb-12 text-white">Used By</h1>
           </div>
-          <div className="flex flex-wrap justify-center gap-5">
+          <div className="flex flex-wrap justify-center gap-5 ">
             <UsedbyCard
               title={"Institutions"}
               desc={
@@ -87,7 +87,7 @@ const Home = () => {
         </div>
 
         {/* virtual reality section */}
-        <div className="my-16  py-10">
+        <div className="my-16  py-10 md: w-100">
           <div className="title ml-[40px] flex gap-2">
             <div className="w-[6px] h-12 bg-[#007FF8]"></div>
             <h1 className="text-5xl font-bold mb-12">Garuda Virtual Reality</h1>
