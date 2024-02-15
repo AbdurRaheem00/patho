@@ -17,11 +17,9 @@
     background: radial-gradient(white 1%, transparent 0); 
     background-size: 2px 2px; /* Smaller dots */
     opacity: 0.4;         
-    /* ... add position: absolute, width/height: 100% to cover the parent */
  }
  .homecontainer::after { 
     content: '';
-    background: linear-gradient(to right, rgba(0,128,255,0.5), transparent);
     height: 2px;
     width: 60%; 
      /* ... adjust positioning */
