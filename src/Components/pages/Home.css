@@ -12,6 +12,17 @@
 
 
 }
+.png{
+    animation: slide 3s ease-in-out infinite alternate;
+  }
+  @keyframes slide {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(10px);
+    }
+  }
 
 .homecontainer::before {  
     content: '';

@@ -8,7 +8,8 @@ const Home = () => {
   return (
     <div className="home">
       <div className="bg-gradient-to-r from-black to-gray-900 sm:w-50 md: w-100 ">
-        <div className="homecontainer">
+        <div className="homecontainer relative">
+          <img src="guy.png" alt="" className="png absolute w-[800px] right-4 animate-slide"/>
           <h1 className="text1 md:text-7xl lg:text-8xl xl:text-6xl 2xl:text-8xl font-bold text-[35px]">
             Garuda.Metaverse
           </h1>
@@ -45,7 +46,7 @@ const Home = () => {
         <div className=" my-16  py-10">
           <div className="title ml-[40px] flex gap-2">
             <div className="w-[6px] h-12 bg-[#007FF8]"></div>
-            <h1 className="text-5xl font-bold mb-12 text-white">Used By</h1>
+            <h1 className="text-5xl font-bold mb-12 text-white font-['Ubuntu',sans-serif]">Used By</h1>
           </div>
           <div className="flex flex-wrap justify-center gap-5">
             <UsedbyCard
@@ -87,10 +88,10 @@ const Home = () => {
         </div>
 
         {/* virtual reality section */}
-        <div className="my-16  py-10">
+        <div className="mt-16  pt-10">
           <div className="title ml-[40px] flex gap-2">
             <div className="w-[6px] h-12 bg-[#007FF8]"></div>
-            <h1 className="text-5xl font-bold mb-12">Garuda Virtual Reality</h1>
+            <h1 className="text-5xl font-bold mb-12  text-white font-['Ubuntu',sans-serif]">Garuda Virtual Reality</h1>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             <Vrcard
@@ -112,7 +113,7 @@ const Home = () => {
           </div>
         </div>
         {/* vr-image(left) text-right*/}
-        <div className="my-16 py-10">
+        <div className="mt-16 py-10">
           <ImageWithText
             img={
               "https://i.ibb.co/56LYXnq/front-view-scientist-wearing-vr-glasses.jpg"
