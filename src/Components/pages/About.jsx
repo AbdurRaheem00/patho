@@ -63,7 +63,6 @@ const About = () => {
         </div>
       </div>
       <div className=""> 
-        <Footer />
       </div>
     </section>
   );
