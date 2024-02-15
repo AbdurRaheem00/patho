@@ -23,6 +23,8 @@ Join the Garuda revolution and redefine the way you learn!
 
 Let me know if you want me to enhance this even further with specific examples or target audience descriptions!
 
+![My Image](./image/image.png)
+
 ## Installation
 
 Install my-project with npm
