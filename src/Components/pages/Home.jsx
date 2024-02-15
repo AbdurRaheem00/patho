@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home">
       <div className="bg-gradient-to-r from-black to-gray-900 sm:w-50 md: w-100 ">
         <div className="homecontainer">
-          <h1 className="text1 text-7xl font-bold md:text-lg">
+          <h1 className="text1 text-7xl font-bold md:text-base">
             Garuda.Metaverse
           </h1>
           <h1 className="text2 text-3xl font-normal text-balance">
