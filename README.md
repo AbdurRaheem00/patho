@@ -48,3 +48,7 @@ To deploy this project run
 **Client:** React, Redux, TailwindCSS
 
 **Server:** Node, Express
+
+**VR:** Unity 3D, Blender, XR toolkit
+
+**Blockchain:** Solidity 
