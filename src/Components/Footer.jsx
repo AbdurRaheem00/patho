@@ -11,7 +11,7 @@ const Footer = ({}) => {
           <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4"
+              className="h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -21,7 +21,7 @@ const Footer = ({}) => {
           <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4"
+              className="h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -31,7 +31,7 @@ const Footer = ({}) => {
           <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -45,7 +45,7 @@ const Footer = ({}) => {
           <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4"
+              className="h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -55,7 +55,7 @@ const Footer = ({}) => {
           <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4"
+              className="h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -65,7 +65,7 @@ const Footer = ({}) => {
           <a href="#!" className="text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-4 w-4"
+              className="h-4 w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -90,7 +90,7 @@ const Footer = ({}) => {
                 About
               </a>
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
                 Services
               </a>
@@ -115,7 +115,7 @@ const Footer = ({}) => {
                 QA Testing
               </a>
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
                 Designs
               </a>
