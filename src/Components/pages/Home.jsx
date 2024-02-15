@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home">
       <div className="bg-gradient-to-r from-black to-gray-900 sm:w-50 md: w-100 ">
         <div className="homecontainer relative">
-          <img src="guy.png" alt="" className="png absolute w-[800px] right-4 "/>
+          <img src="guy.png" alt="" className=" hidden sm:block png absolute w-[800px] right-4 "/>
           <h1 className="text1 md:text-7xl lg:text-8xl xl:text-6xl 2xl:text-8xl font-bold text-[35px]">
             Garuda.Metaverse
           </h1>
