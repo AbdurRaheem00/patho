@@ -1,9 +1,9 @@
 .Navbar { 
-    z-index: 110; 
+    z-index: 110;
 }
 
 .about-page {
-    background: linear-gradient(to right, #f0f2f5, #e0e5ec); 
+    background: linear-gradient(to right, #f0f2f5, #e0e5ec);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,7 +13,7 @@ h1 {
     color: #343a40; 
     text-shadow: 1px 2px 3px rgba(0,0,0,0.1); 
     margin-bottom: 20px;
-} 
+}
 
 .about-logo {
     max-width: 200px;
@@ -29,21 +29,21 @@ section {
     margin-bottom: 40px; 
 }
 
-#abdur-raheem,
-#dharshini,
-#srivatsan {
+#abdur-raheem {
+    background-image: url('/assets/img/abdur-raheem.jpg');
     background-size: cover;    
-    background-position: top center; 
-    min-height: 250px; 
+    background-position: center;
+    width: 200px;
+    height: 250px;
 }
 
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     margin: 0; 
 }
 
 .about-section {
-    background: linear-gradient(to right, rgba(245, 247, 250, 0.4), rgba(220, 230, 240, 0.4)); 
+    background: linear-gradient(to right, rgba(245, 247, 250, 0.4), rgba(220, 230, 240, 0.4));
     padding: 80px 20px;
     display: flex;
     flex-direction: column;
@@ -64,23 +64,25 @@ body {
     margin-bottom: 30px;
 }
 
-.para { 
-    background: rgba(255, 255, 255, 0.6); 
-    backdrop-filter: blur(8px); 
+.para {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(15px); 
     border-radius: 15px;
     padding: 20px;
-    margin: 20px 0; 
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
+    margin: 20px 0;
+    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5);
 }
 
 .mission-statement {
-    background: rgba(255, 255, 255, 0.4);  
-    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
     border-radius: 15px;
     padding: 25px;
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
+    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5);
 }
 
+
+  
 .team-grid {
     display: flex;
     flex-wrap: wrap; 
@@ -89,12 +91,12 @@ body {
 }
 
 .team-member {
-    background: rgba(255, 255, 255, 0.7); 
-    backdrop-filter: blur(10px);
-    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
     padding: 20px;
     margin: 10px;
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
+    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5); 
     max-width: 280px;
     text-align: center;
 }
@@ -133,11 +135,11 @@ body {
 .about-section .section-title {
     position: relative; 
     display: inline-block;
- }
+}
 
 .about-section .section-title::after { 
     content: '';
-    position: absolute; 
+    position: absolute;
     bottom: -5px;
     left: 0;
     width: 100%; 
@@ -156,3 +158,24 @@ body {
    box-shadow: 0 8px 20px rgba(0,0,0,0.08), 
                0 20px 40px rgba(150, 50, 255, 0.8);
 }
+
+/* the struggle for better*/
+.para,
+.mission-statement{
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(15px); 
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 15px 30px rgba(150, 50, 255, 0.5);
+    text-align: left;
+}
+
+.para p, 
+.mission-statement p{ 
+    color: #333; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-bottom: 10px;
+}
+

@@ -3,6 +3,7 @@ import React from 'react';
 /*import teamImage from 'src/assets/img/team.jpg'; */
 import './About.css'; 
 
+
 const About = () => {
   return (
     <section className="about-section" id="about"> 
@@ -11,7 +12,7 @@ const About = () => {
        <p className='para'> At Garuda, we believe immersive technology holds the key to shattering the limitations of traditional education.
         Our groundbreaking VR platform transcends textbooks and lectures, plunging learners into extraordinary educational experiences that fuel limitless understanding.  
         With our groundbreaking cryptocurrency rewards system, we're transforming knowledge into a currency of its own, fueling a global community of passionate, empowered learners.  
-        Garuda isn't just about education – it's about igniting the spark of human brilliance.
+        Garuda isn't just about education – it's about igniting the spark of human brilliance.<br></br>
 
         Garuda isn't just a learning platform; it's your personal flight companion on your journey towards knowledge and self-improvement.
         With Garuda's intuitive dashboard, you're the pilot in the cockpit! Monitor your progress across different subjects, visualizing your accomplishments and pinpointing areas for future growth. 
@@ -48,5 +49,6 @@ const About = () => {
     </section>
   );
 };
+
 
 export default About;

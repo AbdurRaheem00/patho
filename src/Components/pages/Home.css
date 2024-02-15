@@ -12,6 +12,22 @@
 
 }
 
+.homecontainer::before {  
+    content: '';
+    background: radial-gradient(white 1%, transparent 0); 
+    background-size: 2px 2px; /* Smaller dots */
+    opacity: 0.4;         
+    /* ... add position: absolute, width/height: 100% to cover the parent */
+ }
+ .homecontainer::after { 
+    content: '';
+    background: linear-gradient(to right, rgba(0,128,255,0.5), transparent);
+    height: 2px;
+    width: 60%; 
+     /* ... adjust positioning */
+ }
+  
+
 .text1 , .text2{
     color: black;
     padding: 2rem 0;
@@ -33,6 +49,8 @@
     border-radius: 2rem;
     color: black;
     border: 2px solid purple;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
     
 }
 
@@ -42,11 +60,29 @@
     transition: 0.2s ease-in;
     cursor: pointer;
     border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
 }
 
 .twobtn{
     display: flex;
 
+}
+
+.twobtn,
+.twod {
+   perspective: 600px; 
+}
+
+.download,
+.dashboard {
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+   transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+.download:hover,
+.dashboard:hover {
+   box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+   transform: translateY(-2px);  
 }
 
 
