@@ -13,14 +13,14 @@
 
 }
 .png{
-    animation: slide 3s ease-in-out infinite alternate;
+    animation: slide 1s ease-in-out infinite alternate;
   }
   @keyframes slide {
     from {
       transform: translateY(0px);
     }
     to {
-      transform: translateY(10px);
+      transform: translateY(15px);
     }
   }
 
