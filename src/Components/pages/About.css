@@ -1,14 +1,10 @@
-/* Previous styles */
-/* Previous styles */
-
 .Navbar { 
-    z-index: 110; /* Or a suitable high value */ 
-  }
-  
+    z-index: 110; 
+}
+
 .about-page {
     background: linear-gradient(to right, #f0f2f5, #e0e5ec); 
-    font-family: 'Open Sans', sans-serif; /* Example sans-serif */
-   
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -23,7 +19,7 @@ h1 {
     max-width: 200px;
     border-radius: 10px; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
-    margin: 0 auto 30px; /* Center the image */
+    margin: 0 auto 30px; 
     display: block; 
 }
 
@@ -33,260 +29,66 @@ section {
     margin-bottom: 40px; 
 }
 
-#abdur-raheem {
-    background-image: url('/assets/img/abdur-raheem.jpg'); /* Adjust the path as needed */
-    background-size: cover;    /* Make the image cover the div */
-    background-position: center; /* Centers the image in the div */
-    width: 200px;              /* Example - set the width of the team member div */
-    height: 250px;             /* Example - set the height */
-  } 
+#abdur-raheem,
+#dharshini,
+#srivatsan {
+    background-size: cover;    
+    background-position: top center; 
+    min-height: 250px; 
+}
 
-  /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif; /* Or your preferred font */
+    font-family: 'Roboto', sans-serif; 
     margin: 0; 
-  }
-  
-  .about-section {
-    background: linear-gradient(to right, rgba(245, 247, 250, 0.4), rgba(220, 230, 240, 0.4)); /* Subtle gradient with transparency */
+}
+
+.about-section {
+    background: linear-gradient(to right, rgba(245, 247, 250, 0.4), rgba(220, 230, 240, 0.4)); 
     padding: 80px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
-  }
-  
-  .container {
-    max-width: 900px;
-    width: 100%; 
-  }
-  
-  /* Titles  */
-  .section-title, .team-title {
-    z-index: 101;
-    color: #212529; /* Dark text for contrast */
-    font-size: 2.8em;
-    margin-bottom: 30px;
-  
-  }
-
-  .para { 
-    z-index: 101;
-    background: rgba(255, 255, 255, 0.6); 
-    backdrop-filter: blur(8px);  /* Key for the frosted glass effect */
-    border-radius: 15px;
-    padding: 20px;
-    margin: 20px 0; /* Add top and bottom margin for visual spacing */
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
-   
-  }
-  
-  /* Mission Statement */
-  .mission-statement {
-    z-index: 101;
-    background: rgba(255, 255, 255, 0.6); 
-    backdrop-filter: blur(8px);
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
-   
-  }
-  
-  /* Team Grid */
-  .team-grid {
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
     justify-content: center;
-    margin-top: 40px; 
-  }
-  
-  .team-member {
-    background: rgba(255, 255, 255, 0.7); 
-    backdrop-filter: blur(10px);
-    border-radius: 12px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
-    max-width: 280px;
-    text-align: center;
-  }
-  
-  
-  .team-member h4 {
-    color: #1A5276;
-  }
-  
-  .team-member p {
-    margin-top: 5px; 
-  }
-
-
-  
-
-
-#abdur-raheem {
-    background-image: url('./assets/img/abdur-raheem.jpg');  
-    background-size: cover;      
-    background-position: top center; 
-    min-height: 250px; 
-  }
-  
-  #dharshini {
-    background-image: url('./assets/img/dharshini.jpg'); 
-    background-image: url('./assets/img/abdur-raheem.jpg');  
-    background-size: cover;      
-    background-position: top center; 
-    min-height: 250px; 
-    
-  }
-  
-  #srivatsan {
-    background-image: url('./assets/img/srivatsan.jpg'); 
-    background-image: url('./assets/img/abdur-raheem.jpg');  
-    background-size: cover;      
-    background-position: top center; 
-    min-height: 250px; 
-    
-  }
-  
-  .section-title {
-    opacity: 0; /* Initially hidden */
-    animation: fadeIn 1s ease-out forwards; 
 }
 
-@keyframes fadeIn {
-    to { opacity: 1; }  /* Fade in to full opacity */
-}
-
-.team-title {
-    animation: bounceIn 1.2s ease;
-}
-
-@keyframes bounceIn {
-    0% { 
-       opacity: 0; 
-       transform: scale(0.5); 
-    }
-    60% { 
-       opacity: 1; 
-       transform: scale(1.1); 
-    } 
-    100% { transform: scale(1); } /* Settles at normal size */
-}
-
-.mission-statement h2 { 
-    transform: translateX(-200px); /* Starts off-screen to the left */
-    opacity: 0;
-    animation: slideIn 0.8s ease-out forwards;
-}
-
-@keyframes slideIn {
-    to { 
-        transform: translateX(0); /* Slides into place */
-        opacity: 1; 
-    }
-}
-
-  /* Existing Styles... */
-
-.section-title, .team-title { 
-    font-family: 'Krona One', sans-serif; /* Apply Krono One */
-    font-size: 3em; 
-    /* ... rest of your heading styles ... */
- } 
- 
-
-
-.about-page {
-    background: linear-gradient(to right, #f0f2f5, #e0e5ec); 
-    font-family: 'Open Sans', sans-serif; /* Example sans-serif */
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    color: #343a40; 
-    text-shadow: 1px 2px 3px rgba(0,0,0,0.1); 
-    margin-bottom: 20px;
-} 
-
-.about-logo {
-    max-width: 200px;
-    border-radius: 10px; 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
-    margin: 0 auto 30px; /* Center the image */
-    display: block; 
-}
-
-section { 
-    border-bottom: 1px solid #eee; 
-    padding-bottom: 40px;    
-    margin-bottom: 40px; 
-}
-
-#abdur-raheem {
-    background-image: url('/assets/img/abdur-raheem.jpg'); /* Adjust the path as needed */
-    background-size: cover;    /* Make the image cover the div */
-    background-position: center; /* Centers the image in the div */
-    width: 200px;              /* Example - set the width of the team member div */
-    height: 250px;             /* Example - set the height */
-  } 
-
-  /* General Styles */
-body {
-    font-family: 'Roboto', sans-serif; /* Or your preferred font */
-    margin: 0; 
-  }
-  
-  .about-section {
-    background: linear-gradient(to right, rgba(245, 247, 250, 0.4), rgba(220, 230, 240, 0.4)); /* Subtle gradient with transparency */
-    padding: 80px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
-    justify-content: center; /* Centers vertically */
-  }
-  
-  .container {
+.container {
     max-width: 900px;
     width: 100%; 
-  }
-  
-  /* Titles  */
-  .section-title, .team-title {
-    color: #212529; /* Dark text for contrast */
+}
+
+.section-title,
+.team-title {
+    color: #212529; 
     font-size: 2.8em;
     margin-bottom: 30px;
-  }
+}
 
-  .para { 
+.para { 
     background: rgba(255, 255, 255, 0.6); 
-    backdrop-filter: blur(8px);  /* Key for the frosted glass effect */
+    backdrop-filter: blur(8px); 
     border-radius: 15px;
     padding: 20px;
-    margin: 20px 0; /* Add top and bottom margin for visual spacing */
-    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);; /* Subtle shadow */
-  }
-  
-  /* Mission Statement */
-  .mission-statement {
+    margin: 20px 0; 
+    box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
+}
+
+.mission-statement {
     background: rgba(255, 255, 255, 0.4);  
     backdrop-filter: blur(8px);
     border-radius: 15px;
     padding: 25px;
     box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
-  }
-  
-  /* Team Grid */
-  .team-grid {
+}
+
+.team-grid {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    flex-wrap: wrap; 
     justify-content: center;
     margin-top: 40px; 
-  }
-  
-  .team-member {
+}
+
+.team-member {
     background: rgba(255, 255, 255, 0.7); 
     backdrop-filter: blur(10px);
     border-radius: 12px;
@@ -295,20 +97,18 @@ body {
     box-shadow:  0 15px 30px rgba(150, 50, 255, 0.5);
     max-width: 280px;
     text-align: center;
-  }
-  
-  
-  .team-member h4 {
-    color: #1A5276;
-  }
-  
-  .team-member p {
-    margin-top: 5px; 
-  }
+}
 
-  
-  .section-title {
-    background: linear-gradient(to right, #271c26, #d62fad); /* Choose your colors */
+.team-member h4 {
+    color: #1A5276;
+}
+
+.team-member p {
+    margin-top: 5px; 
+}
+
+.section-title {
+    background: linear-gradient(to right, #271c26, #d62fad); 
     -webkit-background-clip: text;
     background-clip: text;  
     -webkit-text-fill-color: transparent; 
@@ -316,7 +116,7 @@ body {
 }
 
 .team-title {
-    -webkit-text-stroke: 2px #212529; /* Dark outline */
+    -webkit-text-stroke: 2px #212529; 
     color: white;
     font-size: 3em;
     margin-top: 40px;
@@ -330,31 +130,29 @@ body {
    margin-top: 40px;
 }
 
-.about-section .section-title { /* Make it more specific */
+.about-section .section-title {
     position: relative; 
     display: inline-block;
  }
- 
- .about-section .section-title::after { 
+
+.about-section .section-title::after { 
     content: '';
-    position: absolute; /* Not just relative */
+    position: absolute; 
     bottom: -5px;
     left: 0;
     width: 100%; 
     height: 3px;
     background-color: #ED213A; 
     transition: width 0.4s ease-in-out; 
- }
- 
- .about-section .section-title:hover::after { 
+}
+
+.about-section .section-title:hover::after { 
     width: 0; 
- }
+}
 
 .para:hover, 
 .mission-statement:hover, 
 .team-member:hover {
    box-shadow: 0 8px 20px rgba(0,0,0,0.08), 
-               0 20px 40px rgba(150, 50, 255, 0.8); /* More intense */
+               0 20px 40px rgba(150, 50, 255, 0.8);
 }
-
-  
