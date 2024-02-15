@@ -86,7 +86,7 @@ const Home = () => {
                     students, lecturers, and doctors: to view the models at any
                     scale, from any angle, both from inside and outside.
                   </li>
-                  <li>It simplifies pathology understanding and learning.</li>
+                  <li>It simplifies pathology understanding and learning of it.</li>
                 </ul>
               }
             />
