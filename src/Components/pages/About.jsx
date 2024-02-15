@@ -45,8 +45,7 @@ const About = () => {
           passive consumption but active contribution, collaboration, and the
           organic growth of an educational metaverse.
         </p>
-      </div>
-      {/* <h2 className="team-title">Meet the Team</h2>
+      <h2 className="team-title">Meet the Team</h2>
         <div className="team-grid">
           <div className="team-member" id="abdur-raheem">
             <h4>Abdur Raheem</h4>
@@ -64,8 +63,7 @@ const About = () => {
         </div>
       </div>
       <div className=""> 
-        <Footer />
-      </div>*/}
+      </div>
     </section>
   );
 };
