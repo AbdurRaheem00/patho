@@ -45,30 +45,38 @@ const Home = () => {
           <h1 className="text-5xl font-bold mb-12  ">Used By</h1>
         </div>
         <div className="flex flex-wrap justify-center gap-5">
-          <UsedbyCard
-            title={"Doctors"}
+        
+        <UsedbyCard
+            title={"Institutions"}
+            
             desc={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat cursus nisl, sit amet consectetur quam tincidunt quis. Curabitur in mi quis enim volutpat interdum sit amet non turpis. Aenean rhoncus tellus et risus mattis efficitur. Praesent at elementum sem. Pellentesque varius nec turpis vitae"
-            }
-          />
-          <UsedbyCard
+              <ul>
+              <li>A unique catalog of medically accurate 3D models of human anatomy and pathologies, including rare diseases.</li>
+              <li>This atlas is designed to be always at hand for medical students, lecturers, and doctors: to view the models at any scale, from any angle, both from inside and outside.</li>
+              <li>It simplifies pathology understanding and learning.</li> 
+            </ul>
+                  }
+        />
+         <UsedbyCard
             title={"Doctors"}
-            desc={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat cursus nisl, sit amet consectetur quam tincidunt quis. Curabitur in mi quis enim volutpat interdum sit amet non turpis. Aenean rhoncus tellus et risus mattis efficitur. Praesent at elementum sem. Pellentesque varius nec turpis vitae"
-            }
+             desc={
+                  "Garuda offers additional practice tools, increased patient awareness through visualizations, pathology visualization for diagnoses, enhanced patient education, and support for full-time and remote consultations. Access the full catalog of 3D models for complex presentations.."
+                  } 
+        />
+        <UsedbyCard
+          title={"Students"}
+          desc={
+                "Discover engaging learning experiences while utilizing Garuda for self-education, knowledge reinforcement, and preparation for exams and tests. Access the full catalog of 3D models for in-depth learning."
+               }
+        />
+        <UsedbyCard
+             title={"Clinics"}
+             desc={
+                   "Garuda provides clinics with an additional practice tool for their entire staff as well as increased patient awareness through visualizations. Utilize unique 3D models for complex presentations for both your staff and patients."
+                   }
           />
-          <UsedbyCard
-            title={"Doctors"}
-            desc={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat cursus nisl, sit amet consectetur quam tincidunt quis. Curabitur in mi quis enim volutpat interdum sit amet non turpis. Aenean rhoncus tellus et risus mattis efficitur. Praesent at elementum sem. Pellentesque varius nec turpis vitae"
-            }
-          />
-          <UsedbyCard
-            title={"Doctors"}
-            desc={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat cursus nisl, sit amet consectetur quam tincidunt quis. Curabitur in mi quis enim volutpat interdum sit amet non turpis. Aenean rhoncus tellus et risus mattis efficitur. Praesent at elementum sem. Pellentesque varius nec turpis vitae"
-            }
-          />
+
+          
         </div>
       </div>
 
