@@ -6,33 +6,34 @@ import ImageWithText from "../ImageWithText";
 import Footer from "../Footer";
 import { useState } from "react";
 const Home = () => {
-
   const [account, setaccount] = useState("");
-  async function requestAccount(){
-    if(window.ethereum){
+  async function requestAccount() {
+    if (window.ethereum) {
       console.log("wallet irukku bha");
 
-      try{
+      try {
         const accounts = await window.ethereum.request({
           method: "eth_requestAccounts",
         });
         setaccount(accounts[0]);
         console.log(accounts);
+      } catch (error) {
+        console.log("etho prachana");
       }
-      catch(error){
-          console.log("etho prachana")
-      }
-    }
-    else{
-      console.log("illa")
+    } else {
+      console.log("illa");
     }
   }
-  
+
   return (
     <div className="home">
       <div className="bg-gradient-to-r from-black to-gray-900 sm:w-50 md: w-100 ">
         <div className="homecontainer relative">
-          <img src="guy.png" alt="" className=" hidden sm:block png absolute w-[800px] right-4 "/>
+          <img
+            src="guy.png"
+            alt=""
+            className=" hidden sm:block png absolute w-[800px] right-2 "
+          />
           <h1 className="text1 md:text-7xl lg:text-8xl xl:text-6xl 2xl:text-8xl font-bold text-[35px] text-[]">
             Garuda.Metaverse
           </h1>
@@ -42,8 +43,15 @@ const Home = () => {
           </h1>
 
           <div className="twobtn">
-            <button className="btn" onClick={requestAccount}>Connect wallet</button>
-            <h3 className="poonabutton"><span className="addressbtn">Address: </span> {account}</h3>
+            <button className="btn" onClick={requestAccount}>
+              Connect wallet
+            </button>
+            <h3 className="poonabutton w-[300px]  cursor-pointer">
+              <span className="addressbtn font-normal text-xl  text-white">
+                Address
+              </span>{" "}
+              {account}
+            </h3>
           </div>
           <div className="twod">
             <div className="download">
@@ -70,7 +78,9 @@ const Home = () => {
         <div className=" my-16  py-10">
           <div className="title ml-[40px] flex gap-2">
             <div className="w-[6px] h-12 bg-[#007FF8]"></div>
-            <h1 className="text-5xl font-bold mb-12 text-white font-['Ubuntu',sans-serif]">Used By</h1>
+            <h1 className="text-5xl font-bold mb-12 text-white font-['Ubuntu',sans-serif]">
+              Used By
+            </h1>
           </div>
           <div className="flex flex-wrap justify-center gap-5 ">
             <UsedbyCard
@@ -86,7 +96,9 @@ const Home = () => {
                     students, lecturers, and doctors: to view the models at any
                     scale, from any angle, both from inside and outside.
                   </li>
-                  <li>It simplifies pathology understanding and learning of it.</li>
+                  <li>
+                    It simplifies pathology understanding and learning of it.
+                  </li>
                 </ul>
               }
             />
@@ -115,7 +127,9 @@ const Home = () => {
         <div className="my-16  py-10">
           <div className="title ml-[40px] flex gap-2">
             <div className="w-[6px] h-12 bg-[#007FF8]"></div>
-            <h1 className="text-5xl font-bold mb-12  text-white font-['Ubuntu',sans-serif]">Garuda Virtual Reality</h1>
+            <h1 className="text-5xl font-bold mb-12  text-white font-['Ubuntu',sans-serif]">
+              Garuda Virtual Reality
+            </h1>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             <Vrcard

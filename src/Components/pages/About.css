@@ -29,8 +29,7 @@ h1 {
 /* Styles for sections */
 section { 
     border-bottom: 1px solid #0F1932; 
-    padding-bottom: 40px;    
-    margin-bottom: 40px; 
+    padding-bottom: 40px;
 }
 
 /* Styles for team members */
@@ -154,8 +153,8 @@ body {
     text-shadow: 
         2px 2px 2px rgba(12, 204, 237, 0.8), 
         -2px -2px 3px rgba(251, 3, 3, 0.3);  
-   font-size: 2.5em;
-   margin-top: 40px;
+        font-size: 2.5em;
+        margin-top: 40px;
 }
 
 /* Styles for section title hover effects */
