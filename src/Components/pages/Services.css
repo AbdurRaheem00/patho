@@ -1,31 +1,59 @@
-.container-Services {
-    display: flex;
-    justify-content: center; /* Centers the cards horizontally */
-    align-items: center;     /* Centers the cards vertically */
-    height: 100vh;          /* Makes the container take full viewport height */
+.container-Services {  
+    height: 200vh;  
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1); 
     backdrop-filter: blur(8px);
   }
-  
+.flex-container{
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px);
+}
+.flex-images{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+.flex-images img{
+  cursor: pointer;
+  width: 160px;
+}
+.flex-images img:hover{
+  cursor: pointer;
+  transform: translateY(-20px);
+  transition: 1s ease-in-out;
+}
   .glass-card {
-    width: 600px; 
+    width: 550px; 
     font-size: 25px;
     font-weight: 600;
-    height: 400px; /* Adjust if needed */
+    height: 350px; /* Adjust if needed */
     margin: 0 20px; /* Adds space between the cards */
+    margin-bottom: 180px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.4);
     text-align: center;
-    padding: 30px; 
   }
-  .glass-card img {
-  width: 100%;        /* Image spans the full width of the card */
-  height: 150px;      /* Adjust this height as needed */
-  object-fit: cover;  /* Maintain aspect ratio, image might be cropped */
+  .glass-card img {   
+  object-fit: fill;  /* Maintain aspect ratio, image might be cropped */
   border-radius: 10px; /* Soften image corners (optional) */
   margin-bottom: 15px; /* Space between the image and the heading */
+}
+
+.header-text{
+  display: flex;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.header-text h1{
+  cursor: pointer;
+}
+.header-text h1:hover{
+  cursor: pointer;
+  border-bottom: 1px solid #1b2b54;
 }
