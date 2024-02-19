@@ -37,7 +37,7 @@
     text-align: center;
   }
   .glass-card img {
-  cursor: pointer;   
+  cursor: pointer;
   object-fit: fill;  /* Maintain aspect ratio, image might be cropped */
   border-radius: 10px; /* Soften image corners using dis */
   margin-bottom: 15px; /* Space between the image and the heading */
