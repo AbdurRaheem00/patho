@@ -39,8 +39,6 @@ const Navbar = () => {
           <NavLink to="/dashboard" onClick={toggleMenu}>
             Dashboard
           </NavLink>
-          
-
         </li>
       </ul>
     </nav>
